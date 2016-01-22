@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466DE26A1C3F7ABC0026567F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DE2691C3F7ABC0026567F /* main.m */; };
+		466DE26D1C3F7ABC0026567F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DE26C1C3F7ABC0026567F /* AppDelegate.m */; };
+		466DE2701C3F7ABC0026567F /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DE26F1C3F7ABC0026567F /* SKViewController.m */; };
+		466DE2731C3F7ABC0026567F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466DE2711C3F7ABC0026567F /* Main.storyboard */; };
+		466DE2751C3F7ABC0026567F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466DE2741C3F7ABC0026567F /* Assets.xcassets */; };
+		466DE2781C3F7ABC0026567F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466DE2761C3F7ABC0026567F /* LaunchScreen.storyboard */; };
+		466DE2831C3F7ABC0026567F /* SQSpritTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DE2821C3F7ABC0026567F /* SQSpritTests.m */; };
+		466DE28E1C3F7ABC0026567F /* SQSpritUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DE28D1C3F7ABC0026567F /* SQSpritUITests.m */; };
+		466DE29C1C3F7AC90026567F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466DE29B1C3F7AC90026567F /* SpriteKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466DE27F1C3F7ABC0026567F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466DE25D1C3F7ABC0026567F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466DE2641C3F7ABC0026567F;
+			remoteInfo = SQSprit;
+		};
+		466DE28A1C3F7ABC0026567F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466DE25D1C3F7ABC0026567F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466DE2641C3F7ABC0026567F;
+			remoteInfo = SQSprit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466DE2651C3F7ABC0026567F /* SQSprit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQSprit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466DE2691C3F7ABC0026567F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		466DE26B1C3F7ABC0026567F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		466DE26C1C3F7ABC0026567F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		466DE26E1C3F7ABC0026567F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		466DE26F1C3F7ABC0026567F /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+		466DE2721C3F7ABC0026567F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466DE2741C3F7ABC0026567F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466DE2771C3F7ABC0026567F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		466DE2791C3F7ABC0026567F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466DE27E1C3F7ABC0026567F /* SQSpritTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQSpritTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466DE2821C3F7ABC0026567F /* SQSpritTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQSpritTests.m; sourceTree = "<group>"; };
+		466DE2841C3F7ABC0026567F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466DE2891C3F7ABC0026567F /* SQSpritUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQSpritUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466DE28D1C3F7ABC0026567F /* SQSpritUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQSpritUITests.m; sourceTree = "<group>"; };
+		466DE28F1C3F7ABC0026567F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466DE29B1C3F7AC90026567F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466DE2621C3F7ABC0026567F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466DE29C1C3F7AC90026567F /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466DE27B1C3F7ABC0026567F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466DE2861C3F7ABC0026567F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466DE25C1C3F7ABC0026567F = {
+			isa = PBXGroup;
+			children = (
+				466DE29B1C3F7AC90026567F /* SpriteKit.framework */,
+				466DE2671C3F7ABC0026567F /* SQSprit */,
+				466DE2811C3F7ABC0026567F /* SQSpritTests */,
+				466DE28C1C3F7ABC0026567F /* SQSpritUITests */,
+				466DE2661C3F7ABC0026567F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466DE2661C3F7ABC0026567F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466DE2651C3F7ABC0026567F /* SQSprit.app */,
+				466DE27E1C3F7ABC0026567F /* SQSpritTests.xctest */,
+				466DE2891C3F7ABC0026567F /* SQSpritUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466DE2671C3F7ABC0026567F /* SQSprit */ = {
+			isa = PBXGroup;
+			children = (
+				466DE26B1C3F7ABC0026567F /* AppDelegate.h */,
+				466DE26C1C3F7ABC0026567F /* AppDelegate.m */,
+				466DE26E1C3F7ABC0026567F /* ViewController.h */,
+				466DE26F1C3F7ABC0026567F /* SKViewController.m */,
+				466DE2711C3F7ABC0026567F /* Main.storyboard */,
+				466DE2741C3F7ABC0026567F /* Assets.xcassets */,
+				466DE2761C3F7ABC0026567F /* LaunchScreen.storyboard */,
+				466DE2791C3F7ABC0026567F /* Info.plist */,
+				466DE2681C3F7ABC0026567F /* Supporting Files */,
+			);
+			path = SQSprit;
+			sourceTree = "<group>";
+		};
+		466DE2681C3F7ABC0026567F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				466DE2691C3F7ABC0026567F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		466DE2811C3F7ABC0026567F /* SQSpritTests */ = {
+			isa = PBXGroup;
+			children = (
+				466DE2821C3F7ABC0026567F /* SQSpritTests.m */,
+				466DE2841C3F7ABC0026567F /* Info.plist */,
+			);
+			path = SQSpritTests;
+			sourceTree = "<group>";
+		};
+		466DE28C1C3F7ABC0026567F /* SQSpritUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466DE28D1C3F7ABC0026567F /* SQSpritUITests.m */,
+				466DE28F1C3F7ABC0026567F /* Info.plist */,
+			);
+			path = SQSpritUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466DE2641C3F7ABC0026567F /* SQSprit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466DE2921C3F7ABC0026567F /* Build configuration list for PBXNativeTarget "SQSprit" */;
+			buildPhases = (
+				466DE2611C3F7ABC0026567F /* Sources */,
+				466DE2621C3F7ABC0026567F /* Frameworks */,
+				466DE2631C3F7ABC0026567F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQSprit;
+			productName = SQSprit;
+			productReference = 466DE2651C3F7ABC0026567F /* SQSprit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466DE27D1C3F7ABC0026567F /* SQSpritTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466DE2951C3F7ABC0026567F /* Build configuration list for PBXNativeTarget "SQSpritTests" */;
+			buildPhases = (
+				466DE27A1C3F7ABC0026567F /* Sources */,
+				466DE27B1C3F7ABC0026567F /* Frameworks */,
+				466DE27C1C3F7ABC0026567F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466DE2801C3F7ABC0026567F /* PBXTargetDependency */,
+			);
+			name = SQSpritTests;
+			productName = SQSpritTests;
+			productReference = 466DE27E1C3F7ABC0026567F /* SQSpritTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		466DE2881C3F7ABC0026567F /* SQSpritUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466DE2981C3F7ABC0026567F /* Build configuration list for PBXNativeTarget "SQSpritUITests" */;
+			buildPhases = (
+				466DE2851C3F7ABC0026567F /* Sources */,
+				466DE2861C3F7ABC0026567F /* Frameworks */,
+				466DE2871C3F7ABC0026567F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466DE28B1C3F7ABC0026567F /* PBXTargetDependency */,
+			);
+			name = SQSpritUITests;
+			productName = SQSpritUITests;
+			productReference = 466DE2891C3F7ABC0026567F /* SQSpritUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466DE25D1C3F7ABC0026567F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sim.quantum;
+				TargetAttributes = {
+					466DE2641C3F7ABC0026567F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CPZN98RKA5;
+					};
+					466DE27D1C3F7ABC0026567F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CPZN98RKA5;
+						TestTargetID = 466DE2641C3F7ABC0026567F;
+					};
+					466DE2881C3F7ABC0026567F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CPZN98RKA5;
+						TestTargetID = 466DE2641C3F7ABC0026567F;
+					};
+				};
+			};
+			buildConfigurationList = 466DE2601C3F7ABC0026567F /* Build configuration list for PBXProject "SQSprit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466DE25C1C3F7ABC0026567F;
+			productRefGroup = 466DE2661C3F7ABC0026567F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466DE2641C3F7ABC0026567F /* SQSprit */,
+				466DE27D1C3F7ABC0026567F /* SQSpritTests */,
+				466DE2881C3F7ABC0026567F /* SQSpritUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466DE2631C3F7ABC0026567F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466DE2781C3F7ABC0026567F /* LaunchScreen.storyboard in Resources */,
+				466DE2751C3F7ABC0026567F /* Assets.xcassets in Resources */,
+				466DE2731C3F7ABC0026567F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466DE27C1C3F7ABC0026567F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466DE2871C3F7ABC0026567F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466DE2611C3F7ABC0026567F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466DE2701C3F7ABC0026567F /* SKViewController.m in Sources */,
+				466DE26D1C3F7ABC0026567F /* AppDelegate.m in Sources */,
+				466DE26A1C3F7ABC0026567F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466DE27A1C3F7ABC0026567F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466DE2831C3F7ABC0026567F /* SQSpritTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466DE2851C3F7ABC0026567F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466DE28E1C3F7ABC0026567F /* SQSpritUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466DE2801C3F7ABC0026567F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466DE2641C3F7ABC0026567F /* SQSprit */;
+			targetProxy = 466DE27F1C3F7ABC0026567F /* PBXContainerItemProxy */;
+		};
+		466DE28B1C3F7ABC0026567F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466DE2641C3F7ABC0026567F /* SQSprit */;
+			targetProxy = 466DE28A1C3F7ABC0026567F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466DE2711C3F7ABC0026567F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466DE2721C3F7ABC0026567F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		466DE2761C3F7ABC0026567F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466DE2771C3F7ABC0026567F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466DE2901C3F7ABC0026567F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		466DE2911C3F7ABC0026567F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466DE2931C3F7ABC0026567F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQSprit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimQuantum.SQSprit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		466DE2941C3F7ABC0026567F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQSprit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimQuantum.SQSprit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		466DE2961C3F7ABC0026567F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQSpritTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimQuantum.SQSpritTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQSprit.app/SQSprit";
+			};
+			name = Debug;
+		};
+		466DE2971C3F7ABC0026567F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQSpritTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimQuantum.SQSpritTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQSprit.app/SQSprit";
+			};
+			name = Release;
+		};
+		466DE2991C3F7ABC0026567F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQSpritUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimQuantum.SQSpritUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQSprit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		466DE29A1C3F7ABC0026567F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQSpritUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimQuantum.SQSpritUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQSprit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466DE2601C3F7ABC0026567F /* Build configuration list for PBXProject "SQSprit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466DE2901C3F7ABC0026567F /* Debug */,
+				466DE2911C3F7ABC0026567F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466DE2921C3F7ABC0026567F /* Build configuration list for PBXNativeTarget "SQSprit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466DE2931C3F7ABC0026567F /* Debug */,
+				466DE2941C3F7ABC0026567F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466DE2951C3F7ABC0026567F /* Build configuration list for PBXNativeTarget "SQSpritTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466DE2961C3F7ABC0026567F /* Debug */,
+				466DE2971C3F7ABC0026567F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466DE2981C3F7ABC0026567F /* Build configuration list for PBXNativeTarget "SQSpritUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466DE2991C3F7ABC0026567F /* Debug */,
+				466DE29A1C3F7ABC0026567F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466DE25D1C3F7ABC0026567F /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SQClound_ios.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SandBox.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>466EAB311C48CDB200A95570</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466EAB421C48CDB200A95570</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466EAB4D1C48CDB200A95570</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466EAB641C48DEA600A95570</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466EAB771C48DEA600A95570</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466EAB821C48DEA600A95570</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

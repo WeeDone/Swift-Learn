@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D2C58F1C4CC1410059BC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C58E1C4CC1410059BC6C /* AppDelegate.swift */; };
+		46D2C5911C4CC1410059BC6C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C5901C4CC1410059BC6C /* Document.swift */; };
+		46D2C5941C4CC1410059BC6C /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D2C5921C4CC1410059BC6C /* Document.xib */; };
+		46D2C5961C4CC1410059BC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D2C5951C4CC1410059BC6C /* Assets.xcassets */; };
+		46D2C5991C4CC1410059BC6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D2C5971C4CC1410059BC6C /* MainMenu.xib */; };
+		46D2C5A41C4CC1410059BC6C /* SQJsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C5A31C4CC1410059BC6C /* SQJsonTests.swift */; };
+		46D2C5AF1C4CC1410059BC6C /* SQJsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C5AE1C4CC1410059BC6C /* SQJsonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D2C5A01C4CC1410059BC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D2C5831C4CC1410059BC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D2C58A1C4CC1410059BC6C;
+			remoteInfo = SQJson;
+		};
+		46D2C5AB1C4CC1410059BC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D2C5831C4CC1410059BC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D2C58A1C4CC1410059BC6C;
+			remoteInfo = SQJson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46D2C58B1C4CC1410059BC6C /* SQJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2C58E1C4CC1410059BC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D2C5901C4CC1410059BC6C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		46D2C5931C4CC1410059BC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		46D2C5951C4CC1410059BC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D2C5981C4CC1410059BC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		46D2C59A1C4CC1410059BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D2C59F1C4CC1410059BC6C /* SQJsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQJsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2C5A31C4CC1410059BC6C /* SQJsonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQJsonTests.swift; sourceTree = "<group>"; };
+		46D2C5A51C4CC1410059BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D2C5AA1C4CC1410059BC6C /* SQJsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQJsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2C5AE1C4CC1410059BC6C /* SQJsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQJsonUITests.swift; sourceTree = "<group>"; };
+		46D2C5B01C4CC1410059BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D2C5881C4CC1410059BC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C59C1C4CC1410059BC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C5A71C4CC1410059BC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D2C5821C4CC1410059BC6C = {
+			isa = PBXGroup;
+			children = (
+				46D2C58D1C4CC1410059BC6C /* SQJson */,
+				46D2C5A21C4CC1410059BC6C /* SQJsonTests */,
+				46D2C5AD1C4CC1410059BC6C /* SQJsonUITests */,
+				46D2C58C1C4CC1410059BC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D2C58C1C4CC1410059BC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C58B1C4CC1410059BC6C /* SQJson.app */,
+				46D2C59F1C4CC1410059BC6C /* SQJsonTests.xctest */,
+				46D2C5AA1C4CC1410059BC6C /* SQJsonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D2C58D1C4CC1410059BC6C /* SQJson */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C58E1C4CC1410059BC6C /* AppDelegate.swift */,
+				46D2C5901C4CC1410059BC6C /* Document.swift */,
+				46D2C5921C4CC1410059BC6C /* Document.xib */,
+				46D2C5951C4CC1410059BC6C /* Assets.xcassets */,
+				46D2C5971C4CC1410059BC6C /* MainMenu.xib */,
+				46D2C59A1C4CC1410059BC6C /* Info.plist */,
+			);
+			path = SQJson;
+			sourceTree = "<group>";
+		};
+		46D2C5A21C4CC1410059BC6C /* SQJsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C5A31C4CC1410059BC6C /* SQJsonTests.swift */,
+				46D2C5A51C4CC1410059BC6C /* Info.plist */,
+			);
+			path = SQJsonTests;
+			sourceTree = "<group>";
+		};
+		46D2C5AD1C4CC1410059BC6C /* SQJsonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C5AE1C4CC1410059BC6C /* SQJsonUITests.swift */,
+				46D2C5B01C4CC1410059BC6C /* Info.plist */,
+			);
+			path = SQJsonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D2C58A1C4CC1410059BC6C /* SQJson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2C5B31C4CC1410059BC6C /* Build configuration list for PBXNativeTarget "SQJson" */;
+			buildPhases = (
+				46D2C5871C4CC1410059BC6C /* Sources */,
+				46D2C5881C4CC1410059BC6C /* Frameworks */,
+				46D2C5891C4CC1410059BC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQJson;
+			productName = SQJson;
+			productReference = 46D2C58B1C4CC1410059BC6C /* SQJson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D2C59E1C4CC1410059BC6C /* SQJsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2C5B61C4CC1410059BC6C /* Build configuration list for PBXNativeTarget "SQJsonTests" */;
+			buildPhases = (
+				46D2C59B1C4CC1410059BC6C /* Sources */,
+				46D2C59C1C4CC1410059BC6C /* Frameworks */,
+				46D2C59D1C4CC1410059BC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D2C5A11C4CC1410059BC6C /* PBXTargetDependency */,
+			);
+			name = SQJsonTests;
+			productName = SQJsonTests;
+			productReference = 46D2C59F1C4CC1410059BC6C /* SQJsonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46D2C5A91C4CC1410059BC6C /* SQJsonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2C5B91C4CC1410059BC6C /* Build configuration list for PBXNativeTarget "SQJsonUITests" */;
+			buildPhases = (
+				46D2C5A61C4CC1410059BC6C /* Sources */,
+				46D2C5A71C4CC1410059BC6C /* Frameworks */,
+				46D2C5A81C4CC1410059BC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D2C5AC1C4CC1410059BC6C /* PBXTargetDependency */,
+			);
+			name = SQJsonUITests;
+			productName = SQJsonUITests;
+			productReference = 46D2C5AA1C4CC1410059BC6C /* SQJsonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D2C5831C4CC1410059BC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XinJinquan;
+				TargetAttributes = {
+					46D2C58A1C4CC1410059BC6C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					46D2C59E1C4CC1410059BC6C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46D2C58A1C4CC1410059BC6C;
+					};
+					46D2C5A91C4CC1410059BC6C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46D2C58A1C4CC1410059BC6C;
+					};
+				};
+			};
+			buildConfigurationList = 46D2C5861C4CC1410059BC6C /* Build configuration list for PBXProject "SQJson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D2C5821C4CC1410059BC6C;
+			productRefGroup = 46D2C58C1C4CC1410059BC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D2C58A1C4CC1410059BC6C /* SQJson */,
+				46D2C59E1C4CC1410059BC6C /* SQJsonTests */,
+				46D2C5A91C4CC1410059BC6C /* SQJsonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D2C5891C4CC1410059BC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C5961C4CC1410059BC6C /* Assets.xcassets in Resources */,
+				46D2C5941C4CC1410059BC6C /* Document.xib in Resources */,
+				46D2C5991C4CC1410059BC6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C59D1C4CC1410059BC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C5A81C4CC1410059BC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D2C5871C4CC1410059BC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C5911C4CC1410059BC6C /* Document.swift in Sources */,
+				46D2C58F1C4CC1410059BC6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C59B1C4CC1410059BC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C5A41C4CC1410059BC6C /* SQJsonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C5A61C4CC1410059BC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C5AF1C4CC1410059BC6C /* SQJsonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D2C5A11C4CC1410059BC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D2C58A1C4CC1410059BC6C /* SQJson */;
+			targetProxy = 46D2C5A01C4CC1410059BC6C /* PBXContainerItemProxy */;
+		};
+		46D2C5AC1C4CC1410059BC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D2C58A1C4CC1410059BC6C /* SQJson */;
+			targetProxy = 46D2C5AB1C4CC1410059BC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D2C5921C4CC1410059BC6C /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D2C5931C4CC1410059BC6C /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		46D2C5971C4CC1410059BC6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D2C5981C4CC1410059BC6C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D2C5B11C4CC1410059BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D2C5B21C4CC1410059BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46D2C5B41C4CC1410059BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQJson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQJson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46D2C5B51C4CC1410059BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQJson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQJson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46D2C5B71C4CC1410059BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQJsonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQJsonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQJson.app/Contents/MacOS/SQJson";
+			};
+			name = Debug;
+		};
+		46D2C5B81C4CC1410059BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQJsonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQJsonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQJson.app/Contents/MacOS/SQJson";
+			};
+			name = Release;
+		};
+		46D2C5BA1C4CC1410059BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQJsonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQJsonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQJson;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46D2C5BB1C4CC1410059BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQJsonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQJsonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQJson;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D2C5861C4CC1410059BC6C /* Build configuration list for PBXProject "SQJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2C5B11C4CC1410059BC6C /* Debug */,
+				46D2C5B21C4CC1410059BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D2C5B31C4CC1410059BC6C /* Build configuration list for PBXNativeTarget "SQJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2C5B41C4CC1410059BC6C /* Debug */,
+				46D2C5B51C4CC1410059BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D2C5B61C4CC1410059BC6C /* Build configuration list for PBXNativeTarget "SQJsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2C5B71C4CC1410059BC6C /* Debug */,
+				46D2C5B81C4CC1410059BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D2C5B91C4CC1410059BC6C /* Build configuration list for PBXNativeTarget "SQJsonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2C5BA1C4CC1410059BC6C /* Debug */,
+				46D2C5BB1C4CC1410059BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D2C5831C4CC1410059BC6C /* Project object */;
+}

@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D2C5551C4CBD820059BC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C5541C4CBD820059BC6C /* AppDelegate.swift */; };
+		46D2C5571C4CBD820059BC6C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C5561C4CBD820059BC6C /* Document.swift */; };
+		46D2C55A1C4CBD820059BC6C /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D2C5581C4CBD820059BC6C /* Document.xib */; };
+		46D2C55C1C4CBD820059BC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D2C55B1C4CBD820059BC6C /* Assets.xcassets */; };
+		46D2C55F1C4CBD820059BC6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D2C55D1C4CBD820059BC6C /* MainMenu.xib */; };
+		46D2C56A1C4CBD820059BC6C /* SQNoteDocumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C5691C4CBD820059BC6C /* SQNoteDocumentTests.swift */; };
+		46D2C5751C4CBD820059BC6C /* SQNoteDocumentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C5741C4CBD820059BC6C /* SQNoteDocumentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D2C5661C4CBD820059BC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D2C5491C4CBD820059BC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D2C5501C4CBD820059BC6C;
+			remoteInfo = SQNoteDocument;
+		};
+		46D2C5711C4CBD820059BC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D2C5491C4CBD820059BC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D2C5501C4CBD820059BC6C;
+			remoteInfo = SQNoteDocument;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46D2C5511C4CBD820059BC6C /* SQNoteDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQNoteDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2C5541C4CBD820059BC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D2C5561C4CBD820059BC6C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		46D2C5591C4CBD820059BC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		46D2C55B1C4CBD820059BC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D2C55E1C4CBD820059BC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		46D2C5601C4CBD820059BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D2C5651C4CBD820059BC6C /* SQNoteDocumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQNoteDocumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2C5691C4CBD820059BC6C /* SQNoteDocumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQNoteDocumentTests.swift; sourceTree = "<group>"; };
+		46D2C56B1C4CBD820059BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D2C5701C4CBD820059BC6C /* SQNoteDocumentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQNoteDocumentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2C5741C4CBD820059BC6C /* SQNoteDocumentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQNoteDocumentUITests.swift; sourceTree = "<group>"; };
+		46D2C5761C4CBD820059BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D2C54E1C4CBD820059BC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C5621C4CBD820059BC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C56D1C4CBD820059BC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D2C5481C4CBD820059BC6C = {
+			isa = PBXGroup;
+			children = (
+				46D2C5531C4CBD820059BC6C /* SQNoteDocument */,
+				46D2C5681C4CBD820059BC6C /* SQNoteDocumentTests */,
+				46D2C5731C4CBD820059BC6C /* SQNoteDocumentUITests */,
+				46D2C5521C4CBD820059BC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D2C5521C4CBD820059BC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C5511C4CBD820059BC6C /* SQNoteDocument.app */,
+				46D2C5651C4CBD820059BC6C /* SQNoteDocumentTests.xctest */,
+				46D2C5701C4CBD820059BC6C /* SQNoteDocumentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D2C5531C4CBD820059BC6C /* SQNoteDocument */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C5541C4CBD820059BC6C /* AppDelegate.swift */,
+				46D2C5561C4CBD820059BC6C /* Document.swift */,
+				46D2C5581C4CBD820059BC6C /* Document.xib */,
+				46D2C55B1C4CBD820059BC6C /* Assets.xcassets */,
+				46D2C55D1C4CBD820059BC6C /* MainMenu.xib */,
+				46D2C5601C4CBD820059BC6C /* Info.plist */,
+			);
+			path = SQNoteDocument;
+			sourceTree = "<group>";
+		};
+		46D2C5681C4CBD820059BC6C /* SQNoteDocumentTests */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C5691C4CBD820059BC6C /* SQNoteDocumentTests.swift */,
+				46D2C56B1C4CBD820059BC6C /* Info.plist */,
+			);
+			path = SQNoteDocumentTests;
+			sourceTree = "<group>";
+		};
+		46D2C5731C4CBD820059BC6C /* SQNoteDocumentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C5741C4CBD820059BC6C /* SQNoteDocumentUITests.swift */,
+				46D2C5761C4CBD820059BC6C /* Info.plist */,
+			);
+			path = SQNoteDocumentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D2C5501C4CBD820059BC6C /* SQNoteDocument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2C5791C4CBD820059BC6C /* Build configuration list for PBXNativeTarget "SQNoteDocument" */;
+			buildPhases = (
+				46D2C54D1C4CBD820059BC6C /* Sources */,
+				46D2C54E1C4CBD820059BC6C /* Frameworks */,
+				46D2C54F1C4CBD820059BC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQNoteDocument;
+			productName = SQNoteDocument;
+			productReference = 46D2C5511C4CBD820059BC6C /* SQNoteDocument.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D2C5641C4CBD820059BC6C /* SQNoteDocumentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2C57C1C4CBD820059BC6C /* Build configuration list for PBXNativeTarget "SQNoteDocumentTests" */;
+			buildPhases = (
+				46D2C5611C4CBD820059BC6C /* Sources */,
+				46D2C5621C4CBD820059BC6C /* Frameworks */,
+				46D2C5631C4CBD820059BC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D2C5671C4CBD820059BC6C /* PBXTargetDependency */,
+			);
+			name = SQNoteDocumentTests;
+			productName = SQNoteDocumentTests;
+			productReference = 46D2C5651C4CBD820059BC6C /* SQNoteDocumentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46D2C56F1C4CBD820059BC6C /* SQNoteDocumentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2C57F1C4CBD820059BC6C /* Build configuration list for PBXNativeTarget "SQNoteDocumentUITests" */;
+			buildPhases = (
+				46D2C56C1C4CBD820059BC6C /* Sources */,
+				46D2C56D1C4CBD820059BC6C /* Frameworks */,
+				46D2C56E1C4CBD820059BC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D2C5721C4CBD820059BC6C /* PBXTargetDependency */,
+			);
+			name = SQNoteDocumentUITests;
+			productName = SQNoteDocumentUITests;
+			productReference = 46D2C5701C4CBD820059BC6C /* SQNoteDocumentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D2C5491C4CBD820059BC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XinJinquan;
+				TargetAttributes = {
+					46D2C5501C4CBD820059BC6C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					46D2C5641C4CBD820059BC6C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46D2C5501C4CBD820059BC6C;
+					};
+					46D2C56F1C4CBD820059BC6C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46D2C5501C4CBD820059BC6C;
+					};
+				};
+			};
+			buildConfigurationList = 46D2C54C1C4CBD820059BC6C /* Build configuration list for PBXProject "SQNoteDocument" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D2C5481C4CBD820059BC6C;
+			productRefGroup = 46D2C5521C4CBD820059BC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D2C5501C4CBD820059BC6C /* SQNoteDocument */,
+				46D2C5641C4CBD820059BC6C /* SQNoteDocumentTests */,
+				46D2C56F1C4CBD820059BC6C /* SQNoteDocumentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D2C54F1C4CBD820059BC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C55C1C4CBD820059BC6C /* Assets.xcassets in Resources */,
+				46D2C55A1C4CBD820059BC6C /* Document.xib in Resources */,
+				46D2C55F1C4CBD820059BC6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C5631C4CBD820059BC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C56E1C4CBD820059BC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D2C54D1C4CBD820059BC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C5571C4CBD820059BC6C /* Document.swift in Sources */,
+				46D2C5551C4CBD820059BC6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C5611C4CBD820059BC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C56A1C4CBD820059BC6C /* SQNoteDocumentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2C56C1C4CBD820059BC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C5751C4CBD820059BC6C /* SQNoteDocumentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D2C5671C4CBD820059BC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D2C5501C4CBD820059BC6C /* SQNoteDocument */;
+			targetProxy = 46D2C5661C4CBD820059BC6C /* PBXContainerItemProxy */;
+		};
+		46D2C5721C4CBD820059BC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D2C5501C4CBD820059BC6C /* SQNoteDocument */;
+			targetProxy = 46D2C5711C4CBD820059BC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D2C5581C4CBD820059BC6C /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D2C5591C4CBD820059BC6C /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		46D2C55D1C4CBD820059BC6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D2C55E1C4CBD820059BC6C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D2C5771C4CBD820059BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D2C5781C4CBD820059BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46D2C57A1C4CBD820059BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQNoteDocument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQNoteDocument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46D2C57B1C4CBD820059BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQNoteDocument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQNoteDocument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46D2C57D1C4CBD820059BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQNoteDocumentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQNoteDocumentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQNoteDocument.app/Contents/MacOS/SQNoteDocument";
+			};
+			name = Debug;
+		};
+		46D2C57E1C4CBD820059BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQNoteDocumentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQNoteDocumentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQNoteDocument.app/Contents/MacOS/SQNoteDocument";
+			};
+			name = Release;
+		};
+		46D2C5801C4CBD820059BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQNoteDocumentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQNoteDocumentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQNoteDocument;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46D2C5811C4CBD820059BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SQNoteDocumentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQNoteDocumentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQNoteDocument;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D2C54C1C4CBD820059BC6C /* Build configuration list for PBXProject "SQNoteDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2C5771C4CBD820059BC6C /* Debug */,
+				46D2C5781C4CBD820059BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D2C5791C4CBD820059BC6C /* Build configuration list for PBXNativeTarget "SQNoteDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2C57A1C4CBD820059BC6C /* Debug */,
+				46D2C57B1C4CBD820059BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D2C57C1C4CBD820059BC6C /* Build configuration list for PBXNativeTarget "SQNoteDocumentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2C57D1C4CBD820059BC6C /* Debug */,
+				46D2C57E1C4CBD820059BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D2C57F1C4CBD820059BC6C /* Build configuration list for PBXNativeTarget "SQNoteDocumentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2C5801C4CBD820059BC6C /* Debug */,
+				46D2C5811C4CBD820059BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D2C5491C4CBD820059BC6C /* Project object */;
+}
