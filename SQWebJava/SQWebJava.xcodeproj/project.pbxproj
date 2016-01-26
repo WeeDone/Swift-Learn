@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464D721A1C5612C400CA4EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D72191C5612C400CA4EAF /* AppDelegate.swift */; };
+		464D721C1C5612C400CA4EAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D721B1C5612C400CA4EAF /* ViewController.swift */; };
+		464D721F1C5612C400CA4EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464D721D1C5612C400CA4EAF /* Main.storyboard */; };
+		464D72211C5612C400CA4EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464D72201C5612C400CA4EAF /* Assets.xcassets */; };
+		464D72241C5612C400CA4EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464D72221C5612C400CA4EAF /* LaunchScreen.storyboard */; };
+		464D722F1C5612C400CA4EAF /* SQWebJavaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D722E1C5612C400CA4EAF /* SQWebJavaTests.swift */; };
+		464D723A1C5612C400CA4EAF /* SQWebJavaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D72391C5612C400CA4EAF /* SQWebJavaUITests.swift */; };
+		464D72481C5612DB00CA4EAF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D72471C5612DB00CA4EAF /* WebKit.framework */; };
+		464D724A1C5612DF00CA4EAF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D72491C5612DF00CA4EAF /* WebKit.framework */; };
+		464D724C1C5618D400CA4EAF /* SQPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D724B1C5618D400CA4EAF /* SQPerson.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		464D722B1C5612C400CA4EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464D720E1C5612C400CA4EAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464D72151C5612C400CA4EAF;
+			remoteInfo = SQWebJava;
+		};
+		464D72361C5612C400CA4EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464D720E1C5612C400CA4EAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464D72151C5612C400CA4EAF;
+			remoteInfo = SQWebJava;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		464D72161C5612C400CA4EAF /* SQWebJava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQWebJava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464D72191C5612C400CA4EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		464D721B1C5612C400CA4EAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		464D721E1C5612C400CA4EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		464D72201C5612C400CA4EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		464D72231C5612C400CA4EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		464D72251C5612C400CA4EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464D722A1C5612C400CA4EAF /* SQWebJavaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQWebJavaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		464D722E1C5612C400CA4EAF /* SQWebJavaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQWebJavaTests.swift; sourceTree = "<group>"; };
+		464D72301C5612C400CA4EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464D72351C5612C400CA4EAF /* SQWebJavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQWebJavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		464D72391C5612C400CA4EAF /* SQWebJavaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQWebJavaUITests.swift; sourceTree = "<group>"; };
+		464D723B1C5612C400CA4EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464D72471C5612DB00CA4EAF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/PrivateFrameworks/WebKit.framework; sourceTree = SDKROOT; };
+		464D72491C5612DF00CA4EAF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		464D724B1C5618D400CA4EAF /* SQPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQPerson.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464D72131C5612C400CA4EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D724A1C5612DF00CA4EAF /* WebKit.framework in Frameworks */,
+				464D72481C5612DB00CA4EAF /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D72271C5612C400CA4EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D72321C5612C400CA4EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464D720D1C5612C400CA4EAF = {
+			isa = PBXGroup;
+			children = (
+				464D72491C5612DF00CA4EAF /* WebKit.framework */,
+				464D72471C5612DB00CA4EAF /* WebKit.framework */,
+				464D72181C5612C400CA4EAF /* SQWebJava */,
+				464D722D1C5612C400CA4EAF /* SQWebJavaTests */,
+				464D72381C5612C400CA4EAF /* SQWebJavaUITests */,
+				464D72171C5612C400CA4EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		464D72171C5612C400CA4EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464D72161C5612C400CA4EAF /* SQWebJava.app */,
+				464D722A1C5612C400CA4EAF /* SQWebJavaTests.xctest */,
+				464D72351C5612C400CA4EAF /* SQWebJavaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464D72181C5612C400CA4EAF /* SQWebJava */ = {
+			isa = PBXGroup;
+			children = (
+				464D72191C5612C400CA4EAF /* AppDelegate.swift */,
+				464D721B1C5612C400CA4EAF /* ViewController.swift */,
+				464D724B1C5618D400CA4EAF /* SQPerson.swift */,
+				464D721D1C5612C400CA4EAF /* Main.storyboard */,
+				464D72201C5612C400CA4EAF /* Assets.xcassets */,
+				464D72221C5612C400CA4EAF /* LaunchScreen.storyboard */,
+				464D72251C5612C400CA4EAF /* Info.plist */,
+			);
+			path = SQWebJava;
+			sourceTree = "<group>";
+		};
+		464D722D1C5612C400CA4EAF /* SQWebJavaTests */ = {
+			isa = PBXGroup;
+			children = (
+				464D722E1C5612C400CA4EAF /* SQWebJavaTests.swift */,
+				464D72301C5612C400CA4EAF /* Info.plist */,
+			);
+			path = SQWebJavaTests;
+			sourceTree = "<group>";
+		};
+		464D72381C5612C400CA4EAF /* SQWebJavaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				464D72391C5612C400CA4EAF /* SQWebJavaUITests.swift */,
+				464D723B1C5612C400CA4EAF /* Info.plist */,
+			);
+			path = SQWebJavaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464D72151C5612C400CA4EAF /* SQWebJava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464D723E1C5612C400CA4EAF /* Build configuration list for PBXNativeTarget "SQWebJava" */;
+			buildPhases = (
+				464D72121C5612C400CA4EAF /* Sources */,
+				464D72131C5612C400CA4EAF /* Frameworks */,
+				464D72141C5612C400CA4EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQWebJava;
+			productName = SQWebJava;
+			productReference = 464D72161C5612C400CA4EAF /* SQWebJava.app */;
+			productType = "com.apple.product-type.application";
+		};
+		464D72291C5612C400CA4EAF /* SQWebJavaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464D72411C5612C400CA4EAF /* Build configuration list for PBXNativeTarget "SQWebJavaTests" */;
+			buildPhases = (
+				464D72261C5612C400CA4EAF /* Sources */,
+				464D72271C5612C400CA4EAF /* Frameworks */,
+				464D72281C5612C400CA4EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464D722C1C5612C400CA4EAF /* PBXTargetDependency */,
+			);
+			name = SQWebJavaTests;
+			productName = SQWebJavaTests;
+			productReference = 464D722A1C5612C400CA4EAF /* SQWebJavaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		464D72341C5612C400CA4EAF /* SQWebJavaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464D72441C5612C400CA4EAF /* Build configuration list for PBXNativeTarget "SQWebJavaUITests" */;
+			buildPhases = (
+				464D72311C5612C400CA4EAF /* Sources */,
+				464D72321C5612C400CA4EAF /* Frameworks */,
+				464D72331C5612C400CA4EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464D72371C5612C400CA4EAF /* PBXTargetDependency */,
+			);
+			name = SQWebJavaUITests;
+			productName = SQWebJavaUITests;
+			productReference = 464D72351C5612C400CA4EAF /* SQWebJavaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464D720E1C5612C400CA4EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XinJinquan;
+				TargetAttributes = {
+					464D72151C5612C400CA4EAF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					464D72291C5612C400CA4EAF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 464D72151C5612C400CA4EAF;
+					};
+					464D72341C5612C400CA4EAF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 464D72151C5612C400CA4EAF;
+					};
+				};
+			};
+			buildConfigurationList = 464D72111C5612C400CA4EAF /* Build configuration list for PBXProject "SQWebJava" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464D720D1C5612C400CA4EAF;
+			productRefGroup = 464D72171C5612C400CA4EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464D72151C5612C400CA4EAF /* SQWebJava */,
+				464D72291C5612C400CA4EAF /* SQWebJavaTests */,
+				464D72341C5612C400CA4EAF /* SQWebJavaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464D72141C5612C400CA4EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D72241C5612C400CA4EAF /* LaunchScreen.storyboard in Resources */,
+				464D72211C5612C400CA4EAF /* Assets.xcassets in Resources */,
+				464D721F1C5612C400CA4EAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D72281C5612C400CA4EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D72331C5612C400CA4EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464D72121C5612C400CA4EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D721C1C5612C400CA4EAF /* ViewController.swift in Sources */,
+				464D721A1C5612C400CA4EAF /* AppDelegate.swift in Sources */,
+				464D724C1C5618D400CA4EAF /* SQPerson.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D72261C5612C400CA4EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D722F1C5612C400CA4EAF /* SQWebJavaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D72311C5612C400CA4EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D723A1C5612C400CA4EAF /* SQWebJavaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		464D722C1C5612C400CA4EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464D72151C5612C400CA4EAF /* SQWebJava */;
+			targetProxy = 464D722B1C5612C400CA4EAF /* PBXContainerItemProxy */;
+		};
+		464D72371C5612C400CA4EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464D72151C5612C400CA4EAF /* SQWebJava */;
+			targetProxy = 464D72361C5612C400CA4EAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		464D721D1C5612C400CA4EAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464D721E1C5612C400CA4EAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		464D72221C5612C400CA4EAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464D72231C5612C400CA4EAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		464D723C1C5612C400CA4EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464D723D1C5612C400CA4EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		464D723F1C5612C400CA4EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = SQWebJava/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebJava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		464D72401C5612C400CA4EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = SQWebJava/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebJava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		464D72421C5612C400CA4EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQWebJavaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebJavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQWebJava.app/SQWebJava";
+			};
+			name = Debug;
+		};
+		464D72431C5612C400CA4EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQWebJavaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebJavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQWebJava.app/SQWebJava";
+			};
+			name = Release;
+		};
+		464D72451C5612C400CA4EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQWebJavaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebJavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQWebJava;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		464D72461C5612C400CA4EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQWebJavaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebJavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQWebJava;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464D72111C5612C400CA4EAF /* Build configuration list for PBXProject "SQWebJava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464D723C1C5612C400CA4EAF /* Debug */,
+				464D723D1C5612C400CA4EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464D723E1C5612C400CA4EAF /* Build configuration list for PBXNativeTarget "SQWebJava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464D723F1C5612C400CA4EAF /* Debug */,
+				464D72401C5612C400CA4EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		464D72411C5612C400CA4EAF /* Build configuration list for PBXNativeTarget "SQWebJavaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464D72421C5612C400CA4EAF /* Debug */,
+				464D72431C5612C400CA4EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		464D72441C5612C400CA4EAF /* Build configuration list for PBXNativeTarget "SQWebJavaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464D72451C5612C400CA4EAF /* Debug */,
+				464D72461C5612C400CA4EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 464D720E1C5612C400CA4EAF /* Project object */;
+}

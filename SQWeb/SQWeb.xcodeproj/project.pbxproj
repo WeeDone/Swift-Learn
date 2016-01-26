@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464D71601C55E69000CA4EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D715F1C55E69000CA4EAF /* AppDelegate.swift */; };
+		464D71621C55E69000CA4EAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D71611C55E69000CA4EAF /* ViewController.swift */; };
+		464D71651C55E69000CA4EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464D71631C55E69000CA4EAF /* Main.storyboard */; };
+		464D71671C55E69000CA4EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464D71661C55E69000CA4EAF /* Assets.xcassets */; };
+		464D716A1C55E69000CA4EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464D71681C55E69000CA4EAF /* LaunchScreen.storyboard */; };
+		464D71751C55E69000CA4EAF /* SQWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D71741C55E69000CA4EAF /* SQWebTests.swift */; };
+		464D71801C55E69000CA4EAF /* SQWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D717F1C55E69000CA4EAF /* SQWebUITests.swift */; };
+		464D718E1C55E6DF00CA4EAF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D718D1C55E6DF00CA4EAF /* WebKit.framework */; };
+		464D71901C55E9C800CA4EAF /* SQLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D718F1C55E9C800CA4EAF /* SQLocation.swift */; };
+		464D71921C55EA0C00CA4EAF /* baidu.html in Resources */ = {isa = PBXBuildFile; fileRef = 464D71911C55EA0C00CA4EAF /* baidu.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		464D71711C55E69000CA4EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464D71541C55E69000CA4EAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464D715B1C55E69000CA4EAF;
+			remoteInfo = SQWeb;
+		};
+		464D717C1C55E69000CA4EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464D71541C55E69000CA4EAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464D715B1C55E69000CA4EAF;
+			remoteInfo = SQWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		464D715C1C55E69000CA4EAF /* SQWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464D715F1C55E69000CA4EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		464D71611C55E69000CA4EAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		464D71641C55E69000CA4EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		464D71661C55E69000CA4EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		464D71691C55E69000CA4EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		464D716B1C55E69000CA4EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464D71701C55E69000CA4EAF /* SQWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		464D71741C55E69000CA4EAF /* SQWebTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQWebTests.swift; sourceTree = "<group>"; };
+		464D71761C55E69000CA4EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464D717B1C55E69000CA4EAF /* SQWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		464D717F1C55E69000CA4EAF /* SQWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQWebUITests.swift; sourceTree = "<group>"; };
+		464D71811C55E69000CA4EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464D718D1C55E6DF00CA4EAF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		464D718F1C55E9C800CA4EAF /* SQLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLocation.swift; sourceTree = "<group>"; };
+		464D71911C55EA0C00CA4EAF /* baidu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = baidu.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464D71591C55E69000CA4EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D718E1C55E6DF00CA4EAF /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D716D1C55E69000CA4EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D71781C55E69000CA4EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464D71531C55E69000CA4EAF = {
+			isa = PBXGroup;
+			children = (
+				464D718D1C55E6DF00CA4EAF /* WebKit.framework */,
+				464D715E1C55E69000CA4EAF /* SQWeb */,
+				464D71731C55E69000CA4EAF /* SQWebTests */,
+				464D717E1C55E69000CA4EAF /* SQWebUITests */,
+				464D715D1C55E69000CA4EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		464D715D1C55E69000CA4EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464D715C1C55E69000CA4EAF /* SQWeb.app */,
+				464D71701C55E69000CA4EAF /* SQWebTests.xctest */,
+				464D717B1C55E69000CA4EAF /* SQWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464D715E1C55E69000CA4EAF /* SQWeb */ = {
+			isa = PBXGroup;
+			children = (
+				464D715F1C55E69000CA4EAF /* AppDelegate.swift */,
+				464D71611C55E69000CA4EAF /* ViewController.swift */,
+				464D718F1C55E9C800CA4EAF /* SQLocation.swift */,
+				464D71911C55EA0C00CA4EAF /* baidu.html */,
+				464D71631C55E69000CA4EAF /* Main.storyboard */,
+				464D71661C55E69000CA4EAF /* Assets.xcassets */,
+				464D71681C55E69000CA4EAF /* LaunchScreen.storyboard */,
+				464D716B1C55E69000CA4EAF /* Info.plist */,
+			);
+			path = SQWeb;
+			sourceTree = "<group>";
+		};
+		464D71731C55E69000CA4EAF /* SQWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				464D71741C55E69000CA4EAF /* SQWebTests.swift */,
+				464D71761C55E69000CA4EAF /* Info.plist */,
+			);
+			path = SQWebTests;
+			sourceTree = "<group>";
+		};
+		464D717E1C55E69000CA4EAF /* SQWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				464D717F1C55E69000CA4EAF /* SQWebUITests.swift */,
+				464D71811C55E69000CA4EAF /* Info.plist */,
+			);
+			path = SQWebUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464D715B1C55E69000CA4EAF /* SQWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464D71841C55E69000CA4EAF /* Build configuration list for PBXNativeTarget "SQWeb" */;
+			buildPhases = (
+				464D71581C55E69000CA4EAF /* Sources */,
+				464D71591C55E69000CA4EAF /* Frameworks */,
+				464D715A1C55E69000CA4EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQWeb;
+			productName = SQWeb;
+			productReference = 464D715C1C55E69000CA4EAF /* SQWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		464D716F1C55E69000CA4EAF /* SQWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464D71871C55E69000CA4EAF /* Build configuration list for PBXNativeTarget "SQWebTests" */;
+			buildPhases = (
+				464D716C1C55E69000CA4EAF /* Sources */,
+				464D716D1C55E69000CA4EAF /* Frameworks */,
+				464D716E1C55E69000CA4EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464D71721C55E69000CA4EAF /* PBXTargetDependency */,
+			);
+			name = SQWebTests;
+			productName = SQWebTests;
+			productReference = 464D71701C55E69000CA4EAF /* SQWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		464D717A1C55E69000CA4EAF /* SQWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464D718A1C55E69000CA4EAF /* Build configuration list for PBXNativeTarget "SQWebUITests" */;
+			buildPhases = (
+				464D71771C55E69000CA4EAF /* Sources */,
+				464D71781C55E69000CA4EAF /* Frameworks */,
+				464D71791C55E69000CA4EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464D717D1C55E69000CA4EAF /* PBXTargetDependency */,
+			);
+			name = SQWebUITests;
+			productName = SQWebUITests;
+			productReference = 464D717B1C55E69000CA4EAF /* SQWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464D71541C55E69000CA4EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XinJinquan;
+				TargetAttributes = {
+					464D715B1C55E69000CA4EAF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					464D716F1C55E69000CA4EAF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 464D715B1C55E69000CA4EAF;
+					};
+					464D717A1C55E69000CA4EAF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 464D715B1C55E69000CA4EAF;
+					};
+				};
+			};
+			buildConfigurationList = 464D71571C55E69000CA4EAF /* Build configuration list for PBXProject "SQWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464D71531C55E69000CA4EAF;
+			productRefGroup = 464D715D1C55E69000CA4EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464D715B1C55E69000CA4EAF /* SQWeb */,
+				464D716F1C55E69000CA4EAF /* SQWebTests */,
+				464D717A1C55E69000CA4EAF /* SQWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464D715A1C55E69000CA4EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D716A1C55E69000CA4EAF /* LaunchScreen.storyboard in Resources */,
+				464D71671C55E69000CA4EAF /* Assets.xcassets in Resources */,
+				464D71921C55EA0C00CA4EAF /* baidu.html in Resources */,
+				464D71651C55E69000CA4EAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D716E1C55E69000CA4EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D71791C55E69000CA4EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464D71581C55E69000CA4EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D71901C55E9C800CA4EAF /* SQLocation.swift in Sources */,
+				464D71621C55E69000CA4EAF /* ViewController.swift in Sources */,
+				464D71601C55E69000CA4EAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D716C1C55E69000CA4EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D71751C55E69000CA4EAF /* SQWebTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464D71771C55E69000CA4EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464D71801C55E69000CA4EAF /* SQWebUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		464D71721C55E69000CA4EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464D715B1C55E69000CA4EAF /* SQWeb */;
+			targetProxy = 464D71711C55E69000CA4EAF /* PBXContainerItemProxy */;
+		};
+		464D717D1C55E69000CA4EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464D715B1C55E69000CA4EAF /* SQWeb */;
+			targetProxy = 464D717C1C55E69000CA4EAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		464D71631C55E69000CA4EAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464D71641C55E69000CA4EAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		464D71681C55E69000CA4EAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464D71691C55E69000CA4EAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		464D71821C55E69000CA4EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464D71831C55E69000CA4EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		464D71851C55E69000CA4EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		464D71861C55E69000CA4EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		464D71881C55E69000CA4EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQWeb.app/SQWeb";
+			};
+			name = Debug;
+		};
+		464D71891C55E69000CA4EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQWeb.app/SQWeb";
+			};
+			name = Release;
+		};
+		464D718B1C55E69000CA4EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQWeb;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		464D718C1C55E69000CA4EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinQuan.SQWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQWeb;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464D71571C55E69000CA4EAF /* Build configuration list for PBXProject "SQWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464D71821C55E69000CA4EAF /* Debug */,
+				464D71831C55E69000CA4EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464D71841C55E69000CA4EAF /* Build configuration list for PBXNativeTarget "SQWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464D71851C55E69000CA4EAF /* Debug */,
+				464D71861C55E69000CA4EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		464D71871C55E69000CA4EAF /* Build configuration list for PBXNativeTarget "SQWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464D71881C55E69000CA4EAF /* Debug */,
+				464D71891C55E69000CA4EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		464D718A1C55E69000CA4EAF /* Build configuration list for PBXNativeTarget "SQWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464D718B1C55E69000CA4EAF /* Debug */,
+				464D718C1C55E69000CA4EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 464D71541C55E69000CA4EAF /* Project object */;
+}
